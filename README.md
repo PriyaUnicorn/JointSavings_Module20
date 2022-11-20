@@ -24,33 +24,33 @@ To interact with your deployed smart contract, complete the following steps:
 
 * Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
 
-![](Execution_Results/1st_Screen Shot 2022-11-20 at 1.26.07 PM.png)
+![](Execution_Results/1st_ScreenShot.png)
 
 * Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract:
 
-![](Execution_Results/2nd_Screen Shot 2022-11-20 at 1.42.39 PM.png)
+![](Execution_Results/2nd_ScreenShot.png)
 
 ##### Transaction 1: Send 1 ether as wei.
 
-![](Execution_Results/3rd_Screen Shot 2022-11-20 at 2.11.56 PM.png)
+![](Execution_Results/3rd_ScreenShot.png)
 
 ##### Transaction 1: Send 10 ether as wei.
 
-![](Execution_Results/4th_Screen Shot 2022-11-20 at 2.16.14 PM.png)
+![](Execution_Results/4th_ScreenShot.png)
 
 ##### Transaction 1: Send 5 ether as wei.
 
-![](Execution_Results/5th_Screen Shot 2022-11-20 at 2.20.29 PM.png)
+![](Execution_Results/5th_ScreenShot.png)
 
 ##### Once you’ve successfully deposited funds into your contract, test the contract’s withdrawal functionality by withdrawing 5 ether into accountOne and 10 ether into accountTwo. After each transaction, use the contractBalance function to verify that the funds were withdrawn from your contract. 
 
 
-![](Execution_Results/Withdrawl10_Screen Shot 2022-11-20 at 2.55.27 PM.png)
+![](Execution_Results/Withdrawl10_ScreenShot.png)
 
 
 ##### Use the lastToWithdraw and lastWithdrawAmount functions to verify that the address and amount were correct.
 
 
-![](Execution_Results/Withdrawl5_Screen Shot 2022-11-20 at 2.50.43 PM.png)
+![](Execution_Results/Withdrawl5_ScreenShot.png)
 
 
